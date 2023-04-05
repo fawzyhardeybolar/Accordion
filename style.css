@@ -1,0 +1,48 @@
+.container > div{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(219, 219, 219);
+    cursor: pointer;
+}
+
+.first, .second, .last {
+    padding: 0.5rem;
+}
+
+.first{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.last{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.plus{
+    font-weight: bolder;
+    font-size: larger;
+    transform: rotate(-90deg);
+}
+
+.plus.active{
+    transform: rotate(90deg);
+}
+
+.lorem{
+    display: none;
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.lorem.active{
+    display: block;
+}
